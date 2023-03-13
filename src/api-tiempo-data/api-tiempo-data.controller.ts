@@ -29,7 +29,7 @@ export class ApiTiempoDataController {
    /* weather.getCurrent().then((data) => {
       return res.json(data);
     });*/
-    weather.getForecast().then((data) => {
+    weather.getForecast().then((data) => { 
     /* const table = [];
       const today = new Date().getDay();
       data.forEach((e, i) => {
